@@ -26,7 +26,7 @@ public class AfishaManagerTest {
         afisha.add("Movie 4");
         afisha.add("Movie 5");
 
-        String[] expected = {"Movie 5", "Movie 4", "Movie 3", "Movie 3"};
+        String[] expected = {"Movie 5", "Movie 4", "Movie 3", "Movie 2"};
         String[] actual = afisha.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
