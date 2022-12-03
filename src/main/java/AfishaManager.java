@@ -14,13 +14,13 @@ public class AfishaManager {
     }
 
     public void add(String movie) {
-    String[] tmp = new String[movies.length + 1];
+        String[] tmp = new String[movies.length + 1];
         System.arraycopy(movies, 0, tmp, 0, movies.length);
-    int i = tmp.length - 1;
-    tmp[i] = movie;
-    movies = tmp;
+        int i = tmp.length - 1;
+        tmp[i] = movie;
+        movies = tmp;
 
-}
+    }
 
     public String[] findAll() {
         return movies;
